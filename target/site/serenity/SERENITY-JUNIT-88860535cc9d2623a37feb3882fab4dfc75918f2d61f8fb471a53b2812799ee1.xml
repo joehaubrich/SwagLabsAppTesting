@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Attempting to log in to the application using valid or invalid data functions as intended" skipped="0" tests="1" time="17.38" timestamp="2022-07-11 09:53:10"><testcase name="Sherlock logs in to the SwagLabs application successfully"><error message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.1.4', revision: '535d840ee2'&#10;System info: host: 'DESKTOP-SFT5ECN', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [57c8a929-6180-4deb-b637-064a7c7c0e49, findElement {using=accessibility id, value=test-Username}]&#10;Capabilities {appium:appActivity: MainActivity, appium:appPackage: com.swaglabsmobileapp, appium:databaseEnabled: false, appium:desired: {appActivity: MainActivity, appPackage: com.swaglabsmobileapp, hub: http://127.0.0.1:4723/wd/hub, platformName: android, udid: e7fbb630}, appium:deviceApiLevel: 26, appium:deviceManufacturer: samsung, appium:deviceModel: SM-G935V, appium:deviceName: e7fbb630, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: e7fbb630, appium:hub: http://127.0.0.1:4723/wd/hub, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.0.0, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:udid: e7fbb630, appium:viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}&#10;Session ID: 57c8a929-6180-4deb-b637-064a7c7c0e49" type="org.openqa.selenium.NoSuchElementException">An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-SFT5ECN', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [57c8a929-6180-4deb-b637-064a7c7c0e49, findElement {using=accessibility id, value=test-Username}]
+Capabilities {appium:appActivity: MainActivity, appium:appPackage: com.swaglabsmobileapp, appium:databaseEnabled: false, appium:desired: {appActivity: MainActivity, appPackage: com.swaglabsmobileapp, hub: http://127.0.0.1:4723/wd/hub, platformName: android, udid: e7fbb630}, appium:deviceApiLevel: 26, appium:deviceManufacturer: samsung, appium:deviceModel: SM-G935V, appium:deviceName: e7fbb630, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: e7fbb630, appium:hub: http://127.0.0.1:4723/wd/hub, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.0.0, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:udid: e7fbb630, appium:viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 57c8a929-6180-4deb-b637-064a7c7c0e49</error><system-err>An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'DESKTOP-SFT5ECN', ip: '192.168.1.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [57c8a929-6180-4deb-b637-064a7c7c0e49, findElement {using=accessibility id, value=test-Username}]
+Capabilities {appium:appActivity: MainActivity, appium:appPackage: com.swaglabsmobileapp, appium:databaseEnabled: false, appium:desired: {appActivity: MainActivity, appPackage: com.swaglabsmobileapp, hub: http://127.0.0.1:4723/wd/hub, platformName: android, udid: e7fbb630}, appium:deviceApiLevel: 26, appium:deviceManufacturer: samsung, appium:deviceModel: SM-G935V, appium:deviceName: e7fbb630, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: e7fbb630, appium:hub: http://127.0.0.1:4723/wd/hub, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.0.0, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:udid: e7fbb630, appium:viewportRect: {height: 1848, left: 0, top: 72, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: android}
+Session ID: 57c8a929-6180-4deb-b637-064a7c7c0e49&#13;
+io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)&#13;
+co.tests.screenplay.tasks.FillLoginInfo.performAs(FillLoginInfo.java:26)&#13;
+co.tests.screenplay.stepdefinitions.LoginFunctionalityStepDefinitions.he_enters_a_valid_username_and_password(LoginFunctionalityStepDefinitions.java:15)&#13;
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:57)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:95)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151)&#13;
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)&#13;
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)&#13;
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:58)&#13;
+</system-err></testcase></testsuite>
